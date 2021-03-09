@@ -1,0 +1,153 @@
+body {
+    background-color: #006c32;
+}
+
+p {
+    color: black;
+    font-size: 15px;
+    border-radius: 12px;
+    background-color: #e8ddcb;
+    padding: 10px;
+    width: 470px;
+    margin: auto;
+    font-family: 'Monda', sans-serif;
+}
+
+button {
+    background-color: white;
+    color: black;
+    font-size: 15px;
+    width: 150px;
+    height: 50px;
+    margin: 25px;
+    border: #006c32 outset 5px;
+    font-family: 'Monda', sans-serif;
+}
+
+.accept:hover {
+    background-color: lightgreen;
+}
+
+.decline:hover {
+    background-color: lightcoral;
+}
+
+h1 {
+    color: white;
+    font-size: 38px;
+    padding: 10px;
+    border-bottom: white dashed 5px;
+    font-family: 'Volkhov', serif;
+}
+
+.pizzeria {
+    width: 450px;
+    border: #d35201 groove 12px;
+    margin: 15px;
+}
+
+.red {
+    width: 270px;
+    height: 250px;
+    border: #bd0016 10px;
+    border-style: double ridge;
+    border-radius: 30px;
+    margin: 15px;
+}
+
+.syrup {
+    width: 270px;
+    height: 250px;
+    border: #bd0016 10px;
+    border-style: double ridge;
+    border-radius: 30px;
+    margin: 15px;
+}
+
+.cheese {
+    width: 300px;
+    height: 210px;
+    border: #D3B168 10px;
+    border-style: double ridge;
+    border-radius: 30px;
+    margin: 15px;
+}
+
+.marshmallow {
+    width: 300px;
+    height: 210px;
+    border: #D3B168 10px;
+    border-style: double ridge;
+    border-radius: 30px;
+    margin: 15px;
+}
+
+.start {
+    margin: auto;
+    text-align: center;
+    width: 500px;
+}
+
+.disappointed {
+    text-align: center;
+    display: none;
+}
+
+.dis {
+    width: 500px;
+    border: white dotted 10px;
+    margin: 15px;
+}
+
+.sauce {
+    margin: auto;
+    text-align: center;
+    display: none;
+}
+
+.toppings {
+    margin: auto;
+    text-align: center;
+    display: none;
+}
+
+.satisfied {
+    color: white;
+    text-align: center;
+    display: none;
+    font-size: 15px;
+    font-family: 'Monda', sans-serif;
+}
+
+.sat {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 500px;
+    border: white dotted 10px;
+    margin: 15px;
+}
+
+.confetti {
+    position: absolute;
+    top: 0;
+    left: 350px;
+    width: 700px;
+    height: 400px;
+}
+
+.unsatisfied {
+    text-align: center;
+    display: none;
+}
+
+.unsat {
+    width: 500px;
+    border: white dotted 10px;
+    margin: 15px;
+}
+
+.reset:hover {
+    background-color: lightgray;
+    color: white;
+}
