@@ -1,11 +1,11 @@
 $(".decline").click(function() {
-    $(".disappointed").fadeIn();
+    $(".disappointed").delay("fast").fadeIn();
     $(".start").hide();
 });
 
 $(".accept").click(function() {
-    $(".sauce").show();
-    $(".start").hide();
+    $(".sauce").delay("slow").fadeIn();
+    $(".start").delay("fast").fadeOut();
 });
 
 $(".red").hover(function() {
@@ -22,21 +22,21 @@ $(".syrup").hover(function() {
 
 $(".cheese").dblclick(function() {
     if ($(".syrup").val() === "Yes") {
-        $(".unsatisfied").fadeIn();
+        $(".unsatisfied").delay("fast").fadeIn();
         $(".toppings").hide();
     }
 });
 
 $(".cheese").dblclick(function() {
     if ($(".red").val() === "Yes") {
-        $(".satisfied").fadeIn();
+        $(".satisfied").delay("fast").fadeIn();
         $(".toppings").hide();
     }
 });
 
 $(".marshmallow").dblclick(function() {
     if ($(".syrup").val() === "Yes") {
-        $(".satisfied").fadeIn();
+        $(".satisfied").delay("fast").fadeIn();
         $(".toppings").hide();
         $(".satisfied").append("✰ He loves the sweet take on the pizza!");
     }
@@ -44,7 +44,7 @@ $(".marshmallow").dblclick(function() {
 
 $(".marshmallow").dblclick(function() {
     if ($(".red").val() === "Yes") {
-        $(".unsatisfied").fadeIn();
+        $(".unsatisfied").delay("fast").fadeIn();
         $(".toppings").hide();
     }
 });
